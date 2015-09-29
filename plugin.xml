@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.instabug.phonegap.ios" version="0.0.1">
+    id="com.instabug.phonegap.ios"
+    version="0.0.1">
+    
     <name>Instabug iOS SDK</name>
+    
     <description>Cordova Device Plugin</description>
+    
     <keywords>instabug,in-app feedback</keywords>
+    
     <engines>
-        <!-- Requires > 3.3.* because of the custom Framework tag for iOS [CB-5238] -->
-        <!-- Requires > 3.5.0 because of the custom Framework tag for Android [CB-6698] -->
         <engine name="cordova" version=">=3.5.0" />
     </engines>
 
-    <platform name="ios">
-        
-        <resource-file src="Instabug.bundle" />
-        <framework src="Instabug.framework" custom="true" />
-        
-    </platform>
+    <platform name="ios"></platform>
 
 </plugin>
