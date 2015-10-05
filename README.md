@@ -2,3 +2,5 @@
 
 Repository containing iOS Instabug.framework and Instabug.bundle files.
 This is due to npm issue breaking symlinks. (https://issues.apache.org/jira/browse/CB-6092)
+
+- SDK Version : 1.7
